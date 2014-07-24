@@ -1,4 +1,8 @@
 #!/usr/bin/env groovy
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -9,7 +13,11 @@ import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.Parser;
 
 public class OptionsParser {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println(sin.readLine());
+
 		// create the command line parser
 		Parser parser = new GnuParser();
 
@@ -41,6 +49,8 @@ public class OptionsParser {
 			// parse the command line arguments
 			CommandLine line = parser.parse(options, args);
 
+			System.out.println("leftovers: " + line.getArgs());
+			
 			// validate that block-size has been set
 			if (line.hasOption("block-size")) {
 				// print the value of block-size
