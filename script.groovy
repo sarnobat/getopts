@@ -33,8 +33,9 @@ public class OptionsParser {
 						+ "by ctime");
 		options.addOption("C", false, "list entries by columns");
 
-		args = new String[1];
-		args[0]= "--block-size=10" ;
+		// This comes from run.sh
+		//args = new String[1];
+		//args[0]= "--block-size=10" ;
 
 		try {
 			// parse the command line arguments

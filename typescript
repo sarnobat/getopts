@@ -1,0 +1,18 @@
+Script started on Wed Jul 23 20:25:06 2014
+Objy setup
+/Users/sarnobat/.zshrc-misc:174: no matches found: /Users/sarnobat/.ec2/*.pem
+/Users/sarnobat/.zshrc-misc:175: no matches found: /Users/sarnobat/.ec2/*.pem
+[2] 67792
+finished sourcing .zshrc-git
+/Users/sarnobat/.zshrc:source:9: no such file or directory: /Users/sarnobat/.aliases
+/Users/sarnobat/.zshrc:source:10: no such file or directory: /Users/sarnobat/.zshrc-objectivity
+For git customizations, execute:
+
+	source ~/.zsh/.zshrc-git
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[J[38;5;162mMacbook-Air [38;5;210mWed 23 July 2014 [38;5;211m 8:25PM>[39m [K[14C[38;5;178m/sarnobat.garagebandbroken/Desktop/github-repositories/getopts[39m[76D
+[2]  + exit 1     open ~/bin/free_memory ~/bin/facebook_pics_cronjob  ~/bin/ssh_auto           
+[0m[27m[24m[J[38;5;162mMacbook-Air [38;5;210mWed 23 July 2014 [38;5;211m 8:25PM>[39m [K[14C[38;5;178m/sarnobat.garagebandbroken/Desktop/github-repositories/getopts[39m[76Dwwiw wiw  sscript.groo vy[K[1C--block-size=100
+100
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[J[38;5;162mMacbook-Air [38;5;210mWed 23 July 2014 [38;5;211m 8:25PM>[39m [K[14C[38;5;178m/sarnobat.garagebandbroken/Desktop/github-repositories/getopts[39m[76Dv ssh run.sh
+10
+[1m[7m%[27m[1m[0m                                                                                                                   [0m[27m[24m[J[38;5;162mMacbook-Air [38;5;210mWed 23 July 2014 [38;5;211m 8:25PM>[39m [K[14C[38;5;178m/sarnobat.garagebandbroken/Desktop/github-repositories/getopts[39m[76D
